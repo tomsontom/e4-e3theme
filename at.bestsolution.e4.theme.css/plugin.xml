@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="id1"
+         point="org.eclipse.e4.workbench.model">
+      <processor
+            beforefragment="true"
+            class="at.bestsolution.e4.theme.css.internal.AddonProcessor">
+      </processor>
+   </extension>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/e4_classic.css"
+            id="at.bestsolution.e4.theme.css.classic"
+            label="E3 Theme">
+      </theme>
+   </extension>
+
+</plugin>

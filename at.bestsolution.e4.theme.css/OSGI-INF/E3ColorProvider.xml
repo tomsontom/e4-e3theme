@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="at.bestsolution.e4.theme.css">
+   <implementation class="at.bestsolution.e4.theme.css.internal.E3ColorProvider"/>
+   <service>
+      <provide interface="at.bestsolution.e4.theme.css.ColorProvider"/>
+   </service>
+</scr:component>
